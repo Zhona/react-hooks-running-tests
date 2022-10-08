@@ -9,3 +9,11 @@ test("displays the text 'please pass this test'", () => {
 
   expect(screen.queryByText("please pass this test")).toBeInTheDocument();
 });
+
+
+//import React from "react";
+function Header(props) {
+  return <h1>please pass this test</h1>
+}
+
+export default Header; 
